@@ -1,0 +1,25 @@
+{
+	"can0" : {
+		"uri" : "_assets/images/skrufador.png",
+		"displacement" : "1"
+	},
+	"can1" : {
+		"uri" : "_assets/images/skrufador.png",
+		"displacement" : "2"
+	},
+	"can2" : {
+		"uri" : "_assets/images/skrufador.png",
+		"displacement" : "5"
+	},
+	"can3" : {
+		"uri" : "_assets/images/skrufador.png",
+		"displacement" : "10"
+	},
+	"can4" : {
+		"uri" : "_assets/images/skrufador.png",
+		"displacement" : "20"
+	}
+}
+
+
+

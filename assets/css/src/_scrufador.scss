@@ -1,0 +1,87 @@
+.scrufadorWrapper {
+   position: absolute;
+   left: 50px;
+   top: 170px;
+   width: 180px;
+   height: 450px;
+   display: flex;
+   flex-direction: column;
+}
+.scrufador {
+	display: flex;
+	flex-grow: 1;
+}
+.scrufador .scrufadorInner {
+   width: inherit;
+   height: inherit;
+   flex-grow: 1;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   cursor: pointer;
+   font-family: cursive;
+	text-align: center;
+}
+.scrufador .scrufadorInner p {
+	font-family: cursive;
+	color: #000;
+	width: 52px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: 5px;
+	transform: translate(-50%, -50%);
+}
+.scrufador .scrufadorInner span {
+	font-family: cursive;
+	color: #000;
+}
+.scrufador:nth-child(1) .scrufadorInner {
+	background-size: 30%;
+}
+.scrufador:nth-child(2) .scrufadorInner {
+	background-size: 35%;
+}
+.scrufador:nth-child(3) .scrufadorInner {
+	background-size: 40%;
+}
+.scrufador:nth-child(4) .scrufadorInner {
+	background-size: 45%;
+}
+.scrufador:nth-child(5) .scrufadorInner {
+	background-size: 50%;
+}
+.scrufador:nth-child(6) .scrufadorInner {
+	background-size: 55%;
+}
+
+
+.scrufador:nth-child(1) .scrufadorInner p{
+	font-size: 18px;
+}
+.scrufador:nth-child(2) .scrufadorInner p{
+	font-size: 20px;
+}
+.scrufador:nth-child(3) .scrufadorInner p{
+	font-size: 22px;
+}
+.scrufador:nth-child(4) .scrufadorInner p{
+	font-size: 24px;
+}
+.scrufador:nth-child(5) .scrufadorInner p{
+	font-size: 26px;
+}
+.scrufador:nth-child(6) .scrufadorInner p{
+	font-size: 28px;
+}
+
+.scrufador .scrufadorInner.hiding {
+   animation: hiding_an 1s ease-in 1;
+}
+@keyframes hiding_an {
+   30%, 60% {
+      transform: rotate(70deg);
+   }
+   90%, to {
+   	transform: rotate(0deg)
+   }
+}

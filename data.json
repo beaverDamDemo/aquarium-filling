@@ -1,0 +1,83 @@
+{
+	"parameters": {
+		"page_title" : [{
+			"order" : 1,
+			"value" : "***"
+		}],
+		"background_color": [{
+			"order": 2,
+			"value": "#95B2B8"
+		}],
+		"background_right_shape_color" : [{
+			"order": 3,
+			"value": "#120309"
+		}],
+		"background_right_shape_opacity" : [{
+			"order": 4,
+			"value": 1
+		}],
+		"header_text": [{
+			"order": 6,
+			"value": "+++"
+		}],
+		"header_allCaps": [{
+			"order": 7,
+			"value": "false"
+		}],
+		"header_fontBold": [{
+			"order": 8,
+			"value": "false"
+		}],
+		"header_textAlignCenter": [{
+			"order": 9,
+			"value": "false"
+		}],
+		"header_fontSize": [{
+			"order": 10,
+			"value": 24
+		}],
+		"bucketColors" : [{
+			"order": 27,
+			"value" : ""
+		}],
+		"buttonCheck_text" : [{
+			"order" : 17,
+			"value" : "OK"
+		}],
+		"buttonCheck_hover_bgr_color" : [{
+			"order" : 18,
+			"value" : "#307351"
+		}],
+		"buttonCheck_background_color" : [{
+			"order" : 19,
+			"value" : "#120309"
+		}],
+		"feedback_buttons_on_curvedPath" : [{
+			"order" : 20,
+			"value" : "true"
+		}],
+		"final_greeting_message" : [{
+			"order" : 21,
+			"value" : "temporary greeting from local json"
+		}],
+		"final_greeting_button_text" : [{
+			"order" : 22,
+			"value" : "temprary btn text from local json"
+		}],
+		"numberToBeComposed_min" : [{
+			"order" : 23,
+			"value" : 10
+		}],
+		"numberToBeComposed_max" : [{
+			"order" : 24,
+			"value" : 100
+		}],
+		"number_of_examples" : [{
+			"order" : 25,
+			"value" : 3
+		}]
+	}
+}
+
+
+

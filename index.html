@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="sl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+		<meta name="author" content="Zdenko Vuk">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/styles.min.css">
+		<title>***</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="headingWrapper">
+				<div id="heading"><p></p></div>
+			</div>
+			<div id="wrapper_right_shape">
+				<svg id="svg_right_shape"></svg>
+			</div>
+			
+			<div class="scrufadorWrapper"></div>
+
+			<div class="mainContent">
+				<div class="maincontent__water"></div>
+				<div class="maincontent__image"></div>
+			</div>
+
+			<div class="numberToBeComposed">
+				<div class="numberToBeComposed__inner"><p>we need to fill <span class='number'></span><span class='litres'>&thinsp;&thinsp;l</span></p></div>
+			</div>
+
+			<div id="feedbackWrapper">
+				<div id="feedbackContent"></div>
+			</div>
+
+			<div id="buttonCheckWrapper" class="buttonWrappers active">
+				<button class="buttons" id="buttonCheck"><p></p></button>
+			</div>
+			<div id="buttonNextWrapper" class="buttonWrappers">
+				<button class="buttons" id="buttonNext"></button>	
+			</div>
+
+			<div class="currentContent">
+				<div class="currentContent__inner">
+					<p>current <span class='number'>0</span><span class='litres'>&thinsp;&thinsp;l</span></p>
+				</div>	
+			</div>
+
+			<div class='closeButton' id="closeButton"></div>
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js'</script>
+		<script type="text/javascript" src='https://cdn.jsdelivr.net/npm/shuffle-array@1.0.1/index.min.js'></script>
+		<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script>
+		<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/utils/Draggable.min.js'></script>
+		
+		<!-- DEVELOPMENT SCRIPT -->
+		<!-- <script src='assets/js/src/app.js'></script> -->
+		<!-- <script src='assets/js/src/play.js'></script> -->
+
+		<!-- PRODUCTION SCRIPT -->
+		<script src='assets/js/bundle.min.js'></script>
+	</body>
+</html>

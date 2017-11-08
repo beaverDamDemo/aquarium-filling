@@ -1,0 +1,66 @@
+.mainContent {
+	position: absolute;
+	left: 230px;
+	top: 170px;
+   width: 640px;
+   height: 360px;
+   overflow: hidden;
+}
+.maincontent__image {
+	position: absolute;
+	left: 50px;
+	margin-left: -20px;
+	top: 0;
+	width: 500px;
+	height: 100%;
+	background-image: url('../images/aquariumFloor.png')
+}
+.maincontent__water {
+	position: absolute;
+	left: 30px;
+	top: 100%;
+	width: 500px;
+	height: 100%;
+	background-color: blue;
+}
+
+.numberToBeComposed {
+	position: absolute;
+    left: 260px;
+    bottom: 50px;
+    width: 500px;
+    height: 80px;
+	background: white;
+}
+.numberToBeComposed__inner {
+	background: gold;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);	
+}
+.currentContent {
+	background: white;
+	position: absolute;
+	right: 100px;
+	height: 50px;
+	width: 200px;
+	top: 300px;
+	display: table;
+}
+.currentContent__inner {
+	background: gold;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+.numberToBeComposed p, .currentContent p {
+	color: #000;
+}
+.numberToBeComposed .number, .currentContent .number {
+	font-weight: bold;
+	font-family: cursive;
+}
+.numberToBeComposed .litres, .currentContent .number {
+	font-family: cursive;
+}
